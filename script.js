@@ -1,4 +1,4 @@
-let nombre=prompt("ingrese nombre");
-if (nombre=="laura")
-   {document.write("vienvenida laura");}
-else {document.write("usted no esta registrado");}
+let nombre=prompt("enter your name");
+if (nombre=="aime")
+   {alert("welcome aime");}
+else {alert(`${nombre} you are not registered`);}
