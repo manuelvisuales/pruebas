@@ -1,0 +1,23 @@
+
+* {
+     margin:0;
+     padding:0;
+	 box-sizing:border-box;}
+.contenedor{
+     padding-top:10vw;
+     width:100%;
+	 background: #FFFFFF;
+	 display:flex;
+	 flex-wrap:wrap;
+	 justify-content:center;}
+.contenedor img{
+     border-radius:20px;
+     width:29%;
+	 height:200px;
+	 margin:10px;
+	 border: 2px solid #333;
+	 box-shadow:0 0 0 2px white;
+	 flex:aouto;}	
+	 
+@media screen and (max-width:768px){.contenedor img{width:30%;}}
+@media screen and (max-width:369px){.contenedor img{width:95%;}}	  	 
